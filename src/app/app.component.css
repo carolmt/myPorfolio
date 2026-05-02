@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+app-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 .container{
   min-height: 100vh;
   overflow: hidden;
@@ -64,5 +71,5 @@
   content:'';
   height: 100%;
   width: 100%;
- backdrop-filter: blur(200px);
+  backdrop-filter: blur(200px);
 }

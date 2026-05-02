@@ -1,3 +1,7 @@
 body {
   margin: 0;
 }
+@font-face {
+  font-family: 'Titulo';
+  src: url('./assets/font/Aclonica-Regular.ttf');
+}
